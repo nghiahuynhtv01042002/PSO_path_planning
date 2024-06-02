@@ -240,9 +240,9 @@ def main():
     path=[]
     obstacle1 = ob.Obstacle_Circle(2, ob.Point(9 +1, 14 + 1))  
     obstacle2 = ob.Obstacle_Circle(2.5, ob.Point(5, 6))
-    obstacle3 = ob.Obstacle_Circle(2, ob.Point(11.5, 9))
+    obstacle3 = ob.Obstacle_Circle(2, ob.Point(12, 9))
     # obstacle4 = ob.Obstacle_Circle(2, ob.Point(12.5, 3))
-    obstacle4 = ob.Obstacle_Circle(2, ob.Point(5, 12.5))
+    obstacle4 = ob.Obstacle_Circle(2, ob.Point(5, 12))
 
     # obstacle5 = ob.Obstacle_Circle(2, ob.Point(12.5, 13.5))
     # obstacles = [obstacle1, obstacle2, obstacle3,obstacle4,obstacle5]
@@ -259,6 +259,7 @@ def main():
         circles=obstacles,
     )
     print("100% completed!")
+    ##add start point và end point 
     path.append([START.x,START.y])
     for loc in best_location:
         path.append([loc[0], loc[1]])
