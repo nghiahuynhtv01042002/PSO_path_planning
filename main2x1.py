@@ -254,8 +254,8 @@ def main():
     
     # the obstacle using for space 2x1 m
     obstacle1 = ob.Obstacle_Circle(2.5, ob.Point(5, 8))
-    obstacle2 = ob.Obstacle_Circle(2, ob.Point(8, 2))  
-    obstacle3 = ob.Obstacle_Circle(2, ob.Point(13, 8))
+    obstacle2 = ob.Obstacle_Circle(2, ob.Point(7, 2))  
+    obstacle3 = ob.Obstacle_Circle(2, ob.Point(13, 7))
     obstacle4 = ob.Obstacle_Circle(2, ob.Point(18, 3))
 
 
